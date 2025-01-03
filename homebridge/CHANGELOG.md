@@ -1,6 +1,6 @@
 # Changelog
 
-## [2024-02-15] - 2024-02-15
+## [2024-12-19] - 2024-02-15
 
 - Update Homebridge to 2024-02-10.
 - Improve logging for better debugging.
