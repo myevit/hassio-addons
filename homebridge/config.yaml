@@ -11,10 +11,14 @@ arch:
   - armv7
   - aarch64
   - amd64
+ports:
+  8581/tcp: 8581
+ports_description:
+  8581/tcp: Homebridge UI
 host_network: true
 init: false
 map:
   - addon_config:rw
 image: myevit/hassio-homebridge-addon
 ingress: true
-ingress_port: 8581
+ingress_port: 0
