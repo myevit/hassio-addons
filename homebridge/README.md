@@ -12,6 +12,8 @@ To configure Homebridge click on OPEN WEB UI from the add-on page.
 ## Credits
 This add-on was inspired by [adsb-multi-portal-feeder](https://github.com/MaxWinterstein/homeassistant-addons/tree/main/adsb-multi-portal-feeder) to leverage a pre-existing Docker image and integrate it into an add-on ([Docker Homebridge](https://github.com/oznu/docker-homebridge) in this case). The add-on icon is derived from [Material Design Icons](https://materialdesignicons.com/icon/home-automation). These projects (and Homebridge itself) deserve all the credit here. This add-on is unrelated to the deprecated [addon-homebridge](https://github.com/hassio-addons/addon-homebridge).
 
+backup ui
+http://haas-ip:8581
 
 ## Building
 
