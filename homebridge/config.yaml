@@ -11,10 +11,6 @@ arch:
   - armv7
   - aarch64
   - amd64
-ports:
-  8581/tcp: 8581
-ports_description:
-  8581/tcp: Homebridge UI
 host_network: true
 init: false
 map:
