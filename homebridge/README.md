@@ -22,3 +22,5 @@ docker buildx inspect --bootstrap
 docker login
 
 docker buildx build --platform linux/amd64,linux/arm/v7,linux/arm64 -t myevit/hassio-homebridge-addon:2024-12-19 -t myevit/hassio-homebridge-addon:latest --push .
+
+docker buildx prune -a

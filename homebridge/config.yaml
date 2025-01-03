@@ -2,6 +2,9 @@ name: Homebridge
 version: 2024-12-19
 stage: experimental
 slug: homebridge
+panel_icon: mdi:hub
+homeassistant_api: true
+homeassistant: 2024.1.0
 description: Lightweight HomeKit API implementation with plugin support
 url: https://github.com/myevit/hassio-addons/tree/main/homebridge
 arch:
@@ -19,4 +22,3 @@ map:
 image: myevit/hassio-homebridge-addon
 ingress: true
 ingress_port: 8581
-ingress_entry: /
