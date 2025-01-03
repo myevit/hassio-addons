@@ -1,5 +1,5 @@
 name: Homebridge
-version: 2024-12-19
+version: 2024-12-19-beta
 stage: experimental
 slug: homebridge
 panel_icon: mdi:hub
